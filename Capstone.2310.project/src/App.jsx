@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+
 import Navbar from './Components/Navbar/Navbar'
 import Home from './Components/Home/Home'
 import Main from './Components/Main/Main'
@@ -12,9 +13,9 @@ function App() {
     <>
       <Navbar />
       <Home />
-      <Main />
+      {/* <Main />
       <Footer />
-      <h1>Hello from app comp</h1>
+      <h1>Hello from app comp</h1> */}
 
 
 
