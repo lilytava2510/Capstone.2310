@@ -1,6 +1,12 @@
 import './home.scss'
 import video from '../../assets/video.mp4'
 import { GrLocation } from 'react-icons/gr'
+import { HiFilter } from 'react-icons/hi'
+import { FiFacebook } from 'react-icons/fi'
+import { AiOutlineInstagram } from 'react-icons/ai'
+// import { SiTripadvisorbook } from 'react-icons/si'
+import { BsListTask } from 'react-icons/bs'
+import { TbApps } from 'react-icons/tb'
 
 
 function Home() {
@@ -46,6 +52,23 @@ function Home() {
                         <div className="input flex">
                             <input type="range" max="5000" min="1000" />
                         </div>
+                    </div>
+
+                    <div className="searchOptions flex">
+                        <HiFilter className="icon" />
+                        <span>MORE FILTERS</span>
+                    </div>
+                </div>
+
+                <div className="homeFooterIcons flex">
+                    <div className="rightIcons">
+                        <FiFacebook className="icon" />
+                        <AiOutlineInstagram className="icon" />
+                        {/* <SiTripadvisorbook className="icon" /> */}
+                    </div>
+                    <div className="leftIcons">
+                        <BsListTask className="icon" />
+                        <TbApps className="icon" />
                     </div>
                 </div>
             </div>
